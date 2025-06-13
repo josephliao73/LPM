@@ -266,7 +266,7 @@ border:0px;
 button.cta-button.btn-light, button.cta-button.btn-dark, .contact-form button.cta-button, button.cta-button.btn-default {
 background: transparent;
 }
-button.cta-button {
+button.cta-button, button.cta-button:focus {
 font-size: 16px;
 line-height: 16px;
 border: 1px solid #fff;
@@ -275,6 +275,7 @@ border-radius: 0;
 font-weight: 600;
 transition: background 0.3s, border-color 0.3s;
 margin-top:20px;
+color: white
 }
 button.cta-button:hover{
 background:#fff;
@@ -303,6 +304,14 @@ color:#000;
 		transition: opacity 0.6s ease-in-out;
 	}
 }
+.anchor-button {
+    all: unset;
+}
+
+.anchor-button:visited {
+    color: white;
+}
+
 .space {
 	padding: 20px 0;
 }
